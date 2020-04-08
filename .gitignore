@@ -1,7 +1,5 @@
 # Packages managers
 node_modules/
-yarn.lock
-package-lock.json
 
 # IDEs
 .idea/
@@ -9,6 +7,3 @@ package-lock.json
 
 #Others
 Isp/
-/yarn.lock
-/.idea/
-/lsp/
