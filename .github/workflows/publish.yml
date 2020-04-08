@@ -15,7 +15,7 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 12
-      - run: npm ci
+      - run: yarn install
       - run: npm test
 
   publish-npm:
@@ -32,7 +32,7 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
 
-  publish-gpr:
+  publish-ghp:
     needs: build
     runs-on: ubuntu-latest
     steps:
@@ -41,7 +41,7 @@ jobs:
         with:
           node-version: 12
           registry-url: https://npm.pkg.github.com/
-      - run: npm ci
+      - run: yarn install
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.gh_token}}
