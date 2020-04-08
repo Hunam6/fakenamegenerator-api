@@ -1,0 +1,30 @@
+{
+  "name": "fakenamegenerator-api",
+  "version": "1.0.0",
+  "description": "Easily scrape data from fakenamegenerator.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hunam6/fakenamegenerator-api.git"
+  },
+  "keywords": [
+    "fakenamegenerator",
+    "fakenamegenerator.com",
+    "fake",
+    "name",
+    "generator"
+  ],
+  "author": "Hunam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Hunam6/fakenamegenerator-api/issues"
+  },
+  "homepage": "https://github.com/Hunam6/fakenamegenerator-api#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "node-fetch": "^2.6.0"
+  }
+}
