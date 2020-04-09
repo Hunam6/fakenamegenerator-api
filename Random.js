@@ -2,7 +2,7 @@ module.exports = class Random {
 
     constructor($){
 
-        const d = $('dd');
+        const d = $('dd')
 
         this.name = $('.address').get(0).children[1].children[0].data
         this.address1 = $('.adr').get(0).children[0].data.trim()
@@ -24,7 +24,7 @@ module.exports = class Random {
         this.visa = parseInt(d.get(13).children[0].data.replace(/ /g,''))
         this.expires = d.get(14).children[0].data
         this.CSC = parseInt(d.get(15).children[0].data)
-        this.company = d.get(16).children[0].data.trim()
+        this.company = d.get(16).children[0].data.replace(/\s/g,'')
         this.occupation = d.get(17).children[0].data
         this.height = parseInt(d.get(18).children[0].data.slice(-16,-13))/100
         this.weight = parseFloat(d.get(19).children[0].data.slice(-15,-11))
