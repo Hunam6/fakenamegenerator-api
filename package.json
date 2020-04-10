@@ -1,6 +1,6 @@
 {
   "name": "fakenamegenerator",
-  "version": "1.3.0",
+  "version": "1.3.2",
   "description": "Easily scrape data from fakenamegenerator.com",
   "main": "index.js",
   "scripts": {
