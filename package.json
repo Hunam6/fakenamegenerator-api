@@ -1,6 +1,6 @@
 {
   "name": "fakenamegenerator",
-  "version": "1.3.2",
+  "version": "1.3.3",
   "description": "Easily scrape data from fakenamegenerator.com",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,8 @@
     "fake",
     "name",
     "generator",
-    "api"
+    "api",
+    "scrape"
   ],
   "author": "Hunam",
   "license": "MIT",

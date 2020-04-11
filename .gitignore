@@ -1,5 +1,6 @@
 # Packages managers
 node_modules/
+yarn.lock
 
 # IDEs
 .idea/

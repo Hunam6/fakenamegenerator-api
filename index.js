@@ -11,7 +11,7 @@ module.exports = genRdm = (gender, country, ageMin, ageMax, nameSound) =>
 
         if (['m', 'male', 'man', 'boy', 'guy'].includes(gender)) gender = 100
         else if (['f', 'female', 'woman', 'girl', 'lady'].includes(gender)) gender = 0
-        url += '/advanced.php?gen=' + gender
+        url += 'advanced.php?gen=' + gender
             + '&c%5B%5D=' + country
             + '&age-min=' + ageMin
             + '&age-max=' + ageMax
